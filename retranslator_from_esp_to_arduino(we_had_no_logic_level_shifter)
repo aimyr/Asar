@@ -1,0 +1,87 @@
+#include <SoftwareSerial.h>
+#include "thingProperties.h"
+
+SoftwareSerial mySerial(10, 11);  // RX, TX
+
+void setup() {
+  // Initialize serial and wait for port to open:
+  Serial.begin(9600);
+  mySerial.begin(9600);
+
+  // Delay to wait for Serial Monitor to open
+  delay(1500);
+
+  // Initialize IoT Cloud properties
+  initProperties();
+
+  // Connect to Arduino IoT Cloud
+  ArduinoCloud.begin(ArduinoIoTPreferredConnection);
+
+  // Set debug level for IoT Cloud
+  setDebugMessageLevel(2);
+  ArduinoCloud.printDebugInfo();
+}
+
+void loop() {
+  ArduinoCloud.update();  // Update IoT Cloud connection and variables
+
+  if (forward) {
+    mySerial.print("1");
+    delay(100);
+    resetMovementFlags();
+  } 
+  if (backward) {
+    mySerial.print("2");
+    delay(100);
+    resetMovementFlags();
+  } 
+  if (left) {
+    mySerial.print("3");
+    delay(100);
+    resetMovementFlags();
+  } 
+  if (right) {
+    mySerial.print("4");
+    delay(100);
+    resetMovementFlags();
+  } 
+  if (stop) {
+    mySerial.print("0");
+    delay(100);
+    resetMovementFlags();
+  }
+}
+
+// Function to reset all movement flags to false
+void resetMovementFlags() {
+  forward = false;
+  backward = false;
+  left = false;
+  right = false;
+  stop = false;
+}
+
+// Function that gets called when Forward changes
+void onForwardChange()  {
+  // Add actions for when forward is triggered
+}
+
+// Function that gets called when Backward changes
+void onBackwardChange()  {
+  // Add actions for when backward is triggered
+}
+
+// Function that gets called when Stop changes
+void onStopChange()  {
+  // Add actions for when stop is triggered
+}
+
+// Function that gets called when Left changes
+void onLeftChange()  {
+  // Add actions for when left is triggered
+}
+
+// Function that gets called when Right changes
+void onRightChange()  {
+  // Add actions for when right is triggered
+}
