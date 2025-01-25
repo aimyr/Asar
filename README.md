@@ -42,3 +42,18 @@ Team. To bring this idea to life, we invested a tremendous amount of time and ef
 
 
 
+
+
+
+
+
+Firstly in the code we must get data from prothesis
+
+Then get that data into pc in order to control mause in computer 
+
+Also from pc you can control Android smartphones by changing modes via pitch on 45 degree and right butten 
+
+if you want to control wheel chair change modes via pitch on -45 degree and right butten. Data goes to esp32 then esp use shifter or arduino and control your electrical wheelchair joystick by using servo
+
+
+
