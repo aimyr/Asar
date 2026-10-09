@@ -1,10 +1,16 @@
 # ASAR — assistive computer interface
 
-ASAR explores accessible device control for people with severe motor impairments, combining head movement, physical inputs, and ongoing work on EEG and eye tracking. The project evolved from **UMIT Touchpad**, a mouth-operated assistive prototype.
+ASAR explores accessible device control for people with severe motor impairments, combining head movement, physical inputs, and ongoing work on EEG and eye tracking. The project evolved from **UMIT Mouthpad**, a mouth-operated assistive prototype.
 
 **Aimer Koshmambetov — CEO and project contributor | Kazakhstan | June 2024–present**
 
 The name *asar* comes from the Kazakh tradition of collective help. The project focuses on practical access to computers and other devices, informed by work with people with disabilities and rehabilitation communities.
+
+## Project recognition
+
+- **ASAR — Diamond Challenge 2025: global Top 20 in social entrepreneurship.** The ASAR team became the first Kazakhstani team to reach this group of finalists. [NIS Taraz](https://trz.nis.edu.kz/en/school/nzm-taraz/news/1154)
+- **UMIT Mouthpad — Red Bull Basement Kazakhstan 2024: 1st place and Tokyo World Final qualification.** Recognition for the predecessor project. [Samsung project coverage](https://csr.samsung.com/en/newsroom/news/samsung-showcases-csr-key-initiatives-to-press-in-almaty)
+- **UMIT Mouthpad — Samsung Solve for Tomorrow Kazakhstan 2024: 3rd place.** Recognition for the predecessor project, listed as Umit in the official results. [Samsung results](https://solvefortomorrow.kz/ru/finalists?year=2024)
 
 ## What this repository contains
 
