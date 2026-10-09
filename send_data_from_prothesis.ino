@@ -7,8 +7,7 @@
 MPU9250 mpu;
 
 // Данные для подключения к WiFi
-const char* ssid = "Aimer";
-const char* password = "aimerbek";
+#include "wifi_config.h"
 
 // Пины для 4 кнопок
 int buttonPins[4] = {0, 1, 2, 3};  

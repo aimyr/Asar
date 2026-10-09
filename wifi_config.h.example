@@ -1,0 +1,6 @@
+// Copy to wifi_config.h locally and configure your prototype's Wi-Fi network.
+// wifi_config.h is ignored by Git. Never commit a real Wi-Fi password.
+#pragma once
+
+const char* ssid = "YOUR_WIFI_SSID";
+const char* password = "YOUR_WIFI_PASSWORD";
